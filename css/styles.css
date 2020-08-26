@@ -1,0 +1,55 @@
+:root {
+  --primari-text-color: #757575;
+  --title-text-color: #2196f3;
+  --accent-color: #212121;
+  --primary-beg-color: #ffffff;
+}
+
+.body {
+  color: var(--primari-text-color);
+  background-color: var(--primary-beg-color);
+}
+
+.list {
+  list-style: none;
+}
+.logo {
+  color: var(--title-text-color);
+}
+.site-nav .link {
+  color: var(--accent-color);
+}
+.site-nav .link:hover .site-nav .link:focus {
+  color: var(--title-text-color);
+}
+.section-title2 {
+  color: var(--accent-color);
+}
+.feature-list .title {
+  color: var(--accent-color);
+}
+
+/* button */
+.button {
+  color: var(--primary-beg-color);
+  background-color: var(--title-text-color);
+}
+.button .primary {
+  color: var(--primary-beg-color);
+  background-color: var(--title-text-color);
+  /* background-color: var(--title-text-colo);
+  color: var(--primary-beg-color); */
+}
+
+/* осоновний колір #212121; */
+/* другій колір #757575; */
+/* акцент #FFFFFF; */
+/* ефект 2 #2196F3; */
+/* вторичний фон #F5F4FA; */
+position: absolute;
+width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
