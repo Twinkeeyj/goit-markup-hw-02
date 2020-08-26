@@ -4,14 +4,12 @@
   --accent-color: #212121;
   --primary-beg-color: #ffffff;
 }
-
-.body {
-  color: var(--primari-text-color);
-  background-color: var(--primary-beg-color);
-}
-
 .list {
   list-style: none;
+}
+.body {
+  color: var(--accent-color);
+  background-color: var(--primary-beg-color);
 }
 /* Шапка */
 .logo {
@@ -31,22 +29,22 @@
 .auth-nav .link:focus {
   color: var(--title-text-color);
 }
-/* фініш */
-.section-title2 {
-  color: var(--accent-color);
-}
-.feature-list .title {
-  color: var(--accent-color);
-}
-
-/* button */
+/* Кнопкі */
 .button {
   color: var(--primary-beg-color);
   background-color: var(--title-text-color);
 }
+/* Примери роботи */
 
-/* осоновний колір #212121; */
-/* другій колір #757575; */
-/* акцент #FFFFFF; */
-/* ефект 2 #2196F3; */
-/* вторичний фон #F5F4FA; */
+.list {
+  list-style: none;
+}
+.work-name {
+  color: var(--accent-color);
+}
+.text {
+  color: var(--primari-text-color);
+}
+.fish {
+  color: var(--primari-text-color);
+}
