@@ -44,7 +44,9 @@
   color: var(--primary-beg-color);
   background-color: var(--title-text-color);
 }
-
+.text {
+  color: var(--primari-text-color);
+}
 /* осоновний колір #212121; */
 /* другій колір #757575; */
 /* акцент #FFFFFF; */
