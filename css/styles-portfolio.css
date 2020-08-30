@@ -21,6 +21,7 @@
   line-height: 1.19;
   text-decoration: none;
 }
+
 .site-nav .link {
   color: var(--accent-color);
 }
@@ -56,11 +57,29 @@
   color: var(--accent-color);
 }
 .text {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--primari-text-color);
+  font-style: normal;
 }
 .footer {
   background-color: #2f303a;
 }
 .wait {
+  color: var(--primary-beg-color);
+}
+.port {
+  color: var (--title-text-color);
+}
+.meny .link:hover,
+.meny .link:focus {
+  color: var(--primary-beg-color);
+  background-color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.8;
+  text-decoration: none;
+}
+.herny:hover,
+.herny:focus {
+  background-color: var(--title-text-color);
   color: var(--primary-beg-color);
 }
