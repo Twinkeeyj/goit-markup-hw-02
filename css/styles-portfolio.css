@@ -83,3 +83,7 @@
   background-color: var(--title-text-color);
   color: var(--primary-beg-color);
 }
+.herny2 {
+  color: var(--title-text-color);
+  text-decoration: none;
+}

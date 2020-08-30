@@ -95,6 +95,10 @@
 .wait {
   color: var(--primary-beg-color);
 }
+.herny2 {
+  color: var(--title-text-color);
+  text-decoration: none;
+}
 /* осоновний колір #212121; */
 /* другій колір #757575; */
 /* акцент #FFFFFF; */
