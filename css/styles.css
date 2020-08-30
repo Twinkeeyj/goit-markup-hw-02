@@ -99,6 +99,12 @@
   color: var(--title-text-color);
   text-decoration: none;
 }
+.jopa {
+  color: var(--accent-color);
+}
+.jopa2 {
+  color: var(--primary-beg-color);
+}
 /* осоновний колір #212121; */
 /* другій колір #757575; */
 /* акцент #FFFFFF; */

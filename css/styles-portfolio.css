@@ -14,13 +14,6 @@
   letter-spacing: 0.03em;
 }
 /* Шапка */
-.logo {
-  color: var(--title-text-color);
-  font-family: Raleway, sans-serif;
-  font-size: 26px;
-  line-height: 1.19;
-  text-decoration: none;
-}
 
 .site-nav .link {
   color: var(--accent-color);
@@ -86,4 +79,17 @@
 .herny2 {
   color: var(--title-text-color);
   text-decoration: none;
+}
+.logo {
+  color: var(--title-text-color);
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.jopa {
+  color: var(--accent-color);
+}
+.jopa2 {
+  color: var(--primary-beg-color);
 }
