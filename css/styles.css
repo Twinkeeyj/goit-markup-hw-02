@@ -6,6 +6,7 @@
   --primary-begf-color: #2f303a;
   --primary-begf-team: #f5f4fa;
   --font-famali: Roboto, sans-serif;
+  --font-famali-logo: Raleway, sans-serif;
 }
 body {
   color: var(--accent-color);
@@ -25,7 +26,7 @@ button {
 /* ====header==== */
 .logo {
   color: var(--title-text-color);
-  font-family: var(--font-famali);
+  font-family: var(--font-famali-logo);
   font-size: 26px;
   line-height: 1.19;
 }
@@ -43,7 +44,7 @@ button {
 .site-nav-bot:focus {
   color: var(--title-text-color);
 }
-.kontakt-inf {
+.kontaсt-inf {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -56,6 +57,14 @@ button {
   color: var(--title-text-color);
 }
 .site-nav-w {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.42;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+.kontaсt-inf:hover,
+.kontaсt-inf:focus {
   color: var(--title-text-color);
 }
 /* ====end header==== */
@@ -67,6 +76,7 @@ button {
   text-align: center;
   letter-spacing: 0.06em;
   color: coral;
+  text-transform: uppercase;
 }
 .button {
   color: var(--primary-beg-color);
@@ -87,6 +97,7 @@ button {
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: var(--accent-color);
+  text-transform: uppercase;
 }
 .pros-explanation {
   font-size: 14px;
@@ -147,5 +158,13 @@ button {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+.address-kont:hover,
+.address-kont:focus {
+  color: var(--title-text-color);
+}
+.address-ul:hover,
+.address-ul:focus {
+  color: var(--title-text-color);
 }
 /* ====end foother==== */

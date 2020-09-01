@@ -56,9 +56,16 @@ button {
   color: var(--title-text-color);
 }
 .site-nav-w {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.42;
+  letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
-
+.kontaсt-inf:hover,
+.kontaсt-inf:focus {
+  color: var(--title-text-color);
+}
 /* ====end header==== */
 /* ====hero==== */
 .but {
@@ -112,5 +119,13 @@ button {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+.address-kont:hover,
+.address-kont:focus {
+  color: var(--title-text-color);
+}
+.address-ul:hover,
+.address-ul:focus {
+  color: var(--title-text-color);
 }
 /* ====end foother==== */
